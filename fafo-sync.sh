@@ -11,7 +11,7 @@ exec >> "$LOGFILE" 2>&1
 echo "[+] FAFO Sync Start $(date -Iseconds)"
 
 if [ ! -d "$FAFO_REPO_DIR/.git" ]; then
-  git clone "https://github.com/Dakjankellams/fafo-sync" "$FAFO_REPO_DIR"
+  git clone "git@github.com:Dakjankellams/fafo-sync.git" "$FAFO_REPO_DIR"
 fi
 
 cd "$FAFO_REPO_DIR"
