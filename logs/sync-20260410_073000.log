@@ -1,0 +1,8 @@
+[+] FAFO Sync Start 2026-04-10T07:30:00-04:00
+auth auth git-credential get: 1: auth: not found
+remote: Repository not found.
+fatal: repository 'https://github.com/YOURUSERNAME/fafo-sync.git/' not found
+auth auth git-credential get: 1: auth: not found
+remote: Repository not found.
+fatal: repository 'https://github.com/YOURUSERNAME/fafo-sync.git/' not found
+fatal: pathspec 'ingest' did not match any files
